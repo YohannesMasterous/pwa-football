@@ -1,0 +1,14 @@
+{
+  "name": "pwa-submission2-yohannes",
+  "version": "1.0.0",
+  "description": "football information using pwa",
+  "main": "push.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "yohannes",
+  "license": "ISC",
+  "dependencies": {
+    "web-push": "^3.4.4"
+  }
+}

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Football MST</title>
+    <meta name="description" content="My first PWA" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="apple-touch-icon" href="./images/icon-192.png">
+    <link rel="shortcut icon" type="image/png" href="./images/icon-72.png">
+    <link rel="stylesheet" href="css/materialize.min.css">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="theme-color" content="#212121" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <style>
+        body {
+            display: flex;
+            min-height: 100vh;
+            flex-direction: column;
+        }
+        .container{
+            flex: 1 0 auto;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Navigasi -->
+    <nav class="grey darken-4" role="navigation">
+        <div class="nav-wrapper container">
+            <a href="#" class="brand-logo" id="logo-container">Football MST</a>
+            <a href="#" class="sidenav-trigger" data-target="nav-mobile"><i class="material-icons">menu</i></a>
+
+            <ul class="topnav right hide-on-med-and-down"></ul>
+            <ul class="sidenav" id="nav-mobile"></ul>
+        </div>
+    </nav>
+    <!-- Akhir Navigasi -->
+    <div class="container" id="body-content"></div>
+
+    <script src="js/materialize.min.js"></script>
+    <script src="js/nav.js"></script>
+    <script src="js/api.js"></script>
+    <script src="js/loadresultjson.js"></script>
+
+    <script src="js/idb.js"></script>
+    <script src="js/db.js"></script>
+    <script src="js/sw-register.js"></script>
+
+    <footer class="page-footer grey darken-4">
+        <div class="container">
+        <div class="row">
+            <div class="col l6 s12">
+            <h5 class="white-text">Football MST</h5>
+            <p class="grey-text text-lighten-4">Informasi mengenai jadwal pertandingan ditampilkan kembali oleh Masterous</p>
+            </div>
+            <div class="col l4 offset-l2 s12">
+            <h5 class="white-text">Tutorial lainnya</h5>
+            <ul>
+                <li><a class="grey-text text-lighten-3" href="https://youtu.be/06b71tIOrNI" target="_blank" rel="noopener">Working with Scene and GameObjects</a></li>
+                <li><a class="grey-text text-lighten-3" href="https://youtu.be/6NFbzEv2V_4" target="_blank" rel="noopener">Grayboxing with Terrain and ProBuilder</a></li>
+                <li><a class="grey-text text-lighten-3" href="https://youtu.be/AF8SPT7fEX0" target="_blank" rel="noopener">Importing and Integrating Assets</a></li>
+                <li><a class="grey-text text-lighten-3" href="https://youtu.be/wu44vciDUOA" target="_blank" rel="noopener">Materials and Effects with URP and Shader Graph</a></li>
+            </ul>
+            </div>
+        </div>
+        </div>
+        <div class="footer-copyright">
+        <div class="container">
+        © 2020 Masterous
+        <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+        </div>
+        </div>
+    </footer>
+</body>
+
+</html>
