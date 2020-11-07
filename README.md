@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="/images/icon-512.png" alt="logo" width="250">
+    <img src="public/images/icon-512.png" alt="logo" width="250">
 </p>
 
 <h1 align="center">PWA Football MST</h1>
@@ -37,7 +37,7 @@
 - [Copyright and license](#copyright-and-license)
 
 ## Firebase Hosting:
-- [See details](https://pwa-football-5bfdc.web.app).
+- Firebase hosting can be found [See details](https://pwa-football-5bfdc.web.app).
 
 ## Github
 - Github project source can be found [See details](https://github.com/YohannesMasterous/pwa-football).
