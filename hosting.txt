@@ -1,0 +1,2 @@
+Firebase Hosting : https://pwa-football-5bfdc.web.app
+Github Pages : https://github.com/YohannesMasterous/pwa-football
